@@ -1,0 +1,466 @@
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+	font-family:"Comic Sans MS", cursive;
+    
+}
+body
+{
+	background:lightblue;
+    text-align: left;
+    
+}
+.navbar-inverse
+{
+	border:none;
+	height:130px;
+	background:linear-gradient(to right,rgba(0,102,102,1),rgba(0,102,102,0.7));
+}
+.navbar-inverse .navbar-brand
+{
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+	font-size:50px;
+	padding:30px;
+}
+.signup li
+{
+	padding:0;
+}
+.top_menu
+{
+	background-color:rgba(0,102,102,1);
+	margin-top:80px;
+	
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover
+{
+	background:lightblue;
+}
+.navbar-inverse .navbar-nav>.open>a:focus
+{
+	background:rgba(0,0,0,0.4);	
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	background:rgba(0,0,0,0.4);
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	font-size:16px;
+	text-shadow:1px 1px 1px #000;
+	text-align:center;
+ 	color:#fff;
+	background-color:rgba(0,102,102,1);
+}
+.my_cart_container
+{
+    position: inherit;
+    width: 330px;
+    height: 600px;
+    background-color: lightblue;
+}
+
+/*=======================================Home Slider=====================================*/
+.slider
+{
+	width:80%;
+	margin:150px auto 0px auto;
+}
+.recent_product
+{
+	margin-top:20px;
+	border:1px solid black;
+	background-color:#FFF;
+	height:auto;
+}
+.my_cart
+{
+    height: auto;
+    position:inherit;
+}
+.my_cart h3
+{
+	margin:20px auto 0px auto;
+	padding:10px;
+	text-shadow:1px 1px 1px #fff;
+	font-size:20px;
+	font-weight:bold;
+}
+.my_cart .cart_items
+{
+    background-color: #fff;
+	margin:0px auto;
+	padding:5px 0px 5px 20px;
+	width:90%;
+	border:1px solid #000;
+	height:auto;
+}
+.cart_items ol
+{
+    margin-right: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    padding-bottom: 5px;
+}
+.my_cart_items
+{
+    width: 50px;
+    height: 40px;
+}
+.my_cart_items_title,.my_cart_items_price
+{
+    padding-left: 15px;   
+}
+
+.recent_product_container
+{
+    width: 750px;
+}
+.recent_img
+{
+    display: inline-block;
+}
+.home_img
+{
+    width: 200px;
+    height: 200px;
+}
+.recent_img_desc .col-md-4
+{
+    width: 230px;
+    font-size: 16px;
+    text-align: center;
+}
+.recent_img_desc .col-md-4 .btn-add-cart
+{
+    font-size: 14px;
+    margin-top: 10px;
+    padding:8px 20px 8px 20px;
+    background-color: transparent;
+    border: 2px solid rgba(0,0,0,0.8);
+    transition: all linear 0.2s;
+}
+.recent_img_desc .col-md-4 .btn-add-cart:hover
+{
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px (255,255,255,0.9);
+    border: 2px solid rgba(0,102,102,1);
+}
+/*======================================= About us =====================================*/
+.about_container
+{
+    margin-top: 130px;
+    background-color: #fff;
+    height: 600px;
+	
+}
+.about_us_info
+{
+    font-size: 18px;
+}
+
+/*======================================= Arts =====================================*/
+.art_inner
+{
+    margin-top:130px;
+    background-color:#fff;
+	height:auto;
+    padding: 0;
+}
+
+/*=======================================Reach Us=====================================*/
+.reach_us_data
+{
+	background-color:#fff;
+	margin-top:130px;
+	height: 600px;
+    
+}
+.comment_form
+{
+	height:auto;
+}
+.address
+{
+	height:450px;
+    position:inherit;
+}
+.panel
+{
+	border:none;
+	box-shadow:none;
+	width:90%;
+	margin:20px auto;
+}
+.panel .panel-heading
+{
+	color:#000;
+	font-size:22px;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #fff;
+	background:linear-gradient(to right,rgba(204,204,204,0.5),rgba(255,255,255,1));
+}
+.panel .panel-body .jumbotron
+{
+	background:none;
+	line-height:1;
+	padding:0px 0px 0px 10px;
+}
+.panel .panel-body .jumbotron p
+{
+	width:60%;
+	font-size:18px;	
+}
+.control-label span
+{
+	color:#f00;
+}
+
+/*======================================Popup Menu=================================*/
+
+#signlog
+{
+	display:block;
+	font-size:16px;
+	text-shadow:1px 1px 1px #000;
+	text-align:center;
+	color:#fff;
+	background:transparent;
+	border:none;
+	width:auto;
+	height:auto;
+	padding:12px;
+}
+.popup
+{
+	
+		width:60%;
+}
+
+/*======================Validation===========================**/
+.val_err,.pwd_val
+{
+	display:none;
+}
+
+
+
+/*======================================Cart=========================================*/
+.cart-container
+{
+    background-color:#fff;
+	margin-top:130px;
+    height: 600px;
+}
+.q_item_group
+{
+	margin:0px auto;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:5px;
+	line-height:2;
+	width:100px;
+	
+}
+.q_item_group .add,.remove
+{
+	font-weight:bolder;
+	cursor:pointer;
+	transition:all linear 0.2s;
+}
+.q_item_group .add:hover,.remove:hover
+{
+	color:#fff;
+	background-color:rgba(0,102,102,0.3);
+}
+.cart_table td
+{
+	text-align:center;
+	border:1px solid rgba(0,0,0,0.2);
+}
+.cart_table tr td>button
+{
+	color:#fff;
+	font-size:15px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+	border:none;
+	border-radius:3px;
+	background-color:rgba(0,102,102,0.7);
+	padding:5px;
+	width:80%;
+	height:40px;
+	transition:all linear 0.2s;
+}
+.cart_table tr td>button:hover
+{
+	text-shadow:1px 1px 1px rgba(0,0,0,0.8);
+	background-color:rgba(0,102,102,0.6);
+}
+.cart_table .glyphicon-remove
+{
+    color: rgba(255,0,0,0.8);
+    font-weight:lighter;
+    font-size: 24px;
+    cursor: pointer;
+}
+/*======================================Social icon=================================*/
+.social-icon-area
+{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+}
+.social-icons
+{
+    list-style: none;
+}
+.azm-social {
+	margin: 0;
+	padding: 0;
+    font-size: 21px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+.azm-social:hover, .azm-social:focus, .azm-social:active { outline: 0; opacity: 0.8; color: #fff; }
+
+.azm-size-48 {
+	width: 48px;
+	height: 48px;
+	padding-top: 13px;
+	line-height: 21px;
+}
+.azm-size-48:hover
+{
+    transform: scaleX(1.3);
+}
+.azm-facebook { background: #4862a3; }
+.azm-instagram { background: #3d6b92; }
+.azm-linkedin { background: #0177b5; }
+.azm-twitter { background: #55acee; }
+
+.azm-long-shadow {
+	overflow: hidden;
+}
+.azm-long-shadow.azm-facebook {text-shadow:rgb(65,88,147) 1px 1px,rgb(65,88,147) 2px 2px,rgb(65,88,147) 3px 3px,rgb(65,88,147) 4px 4px,rgb(65,88,148) 5px 5px,rgb(65,88,148) 6px 6px,rgb(65,88,148) 7px 7px,rgb(65,89,148) 8px 8px,rgb(65,89,148) 9px 9px,rgb(65,89,149) 10px 10px,rgb(65,89,149) 11px 11px,rgb(66,89,149) 12px 12px,rgb(66,89,149) 13px 13px,rgb(66,89,149) 14px 14px,rgb(66,89,150) 15px 15px,rgb(66,90,150) 16px 16px,rgb(66,90,150) 17px 17px,rgb(66,90,150) 18px 18px,rgb(66,90,150) 19px 19px,rgb(66,90,151) 20px 20px,rgb(66,90,151) 21px 21px,rgb(66,90,151) 22px 22px,rgb(67,90,151) 23px 23px,rgb(67,91,151) 24px 24px,rgb(67,91,152) 25px 25px,rgb(67,91,152) 26px 26px,rgb(67,91,152) 27px 27px,rgb(67,91,152) 28px 28px,rgb(67,91,152) 29px 29px,rgb(67,91,153) 30px 30px,rgb(67,91,153) 31px 31px,rgb(67,92,153) 32px 32px,rgb(67,92,153) 33px 33px,rgb(67,92,153) 34px 34px,rgb(68,92,154) 35px 35px,rgb(68,92,154) 36px 36px,rgb(68,92,154) 37px 37px,rgb(68,92,154) 38px 38px,rgb(68,92,154) 39px 39px,rgb(68,93,155) 40px 40px,rgb(68,93,155) 41px 41px,rgb(68,93,155) 42px 42px,rgb(68,93,155) 43px 43px,rgb(68,93,155) 44px 44px,rgb(68,93,156) 45px 45px,rgb(69,93,156) 46px 46px,rgb(69,93,156) 47px 47px,rgb(69,94,156) 48px 48px,rgb(69,94,156) 49px 49px,rgb(69,94,157) 50px 50px,rgb(69,94,157) 51px 51px,rgb(69,94,157) 52px 52px,rgb(69,94,157) 53px 53px,rgb(69,94,157) 54px 54px,rgb(69,94,158) 55px 55px,rgb(69,95,158) 56px 56px,rgb(69,95,158) 57px 57px,rgb(70,95,158) 58px 58px,rgb(70,95,158) 59px 59px,rgb(70,95,159) 60px 60px,rgb(70,95,159) 61px 61px,rgb(70,95,159) 62px 62px,rgb(70,95,159) 63px 63px,rgb(70,96,159) 64px 64px,rgb(70,96,160) 65px 65px,rgb(70,96,160) 66px 66px,rgb(70,96,160) 67px 67px,rgb(70,96,160) 68px 68px,rgb(71,96,160) 69px 69px,rgb(71,96,161) 70px 70px,rgb(71,96,161) 71px 71px,rgb(71,97,161) 72px 72px,rgb(71,97,161) 73px 73px,rgb(71,97,161) 74px 74px,rgb(71,97,162) 75px 75px,rgb(71,97,162) 76px 76px,rgb(71,97,162) 77px 77px,rgb(71,97,162) 78px 78px,rgb(71,97,162) 79px 79px,rgb(72,98,163) 80px 80px}
+
+.azm-long-shadow.azm-twitter {text-shadow:rgb(77,155,214) 1px 1px,rgb(77,155,214) 2px 2px,rgb(77,155,214) 3px 3px,rgb(77,155,215) 4px 4px,rgb(77,156,215) 5px 5px,rgb(77,156,215) 6px 6px,rgb(77,156,216) 7px 7px,rgb(77,156,216) 8px 8px,rgb(77,156,216) 9px 9px,rgb(78,157,217) 10px 10px,rgb(78,157,217) 11px 11px,rgb(78,157,217) 12px 12px,rgb(78,157,217) 13px 13px,rgb(78,157,218) 14px 14px,rgb(78,158,218) 15px 15px,rgb(78,158,218) 16px 16px,rgb(78,158,219) 17px 17px,rgb(78,158,219) 18px 18px,rgb(78,159,219) 19px 19px,rgb(79,159,220) 20px 20px,rgb(79,159,220) 21px 21px,rgb(79,159,220) 22px 22px,rgb(79,159,220) 23px 23px,rgb(79,160,221) 24px 24px,rgb(79,160,221) 25px 25px,rgb(79,160,221) 26px 26px,rgb(79,160,222) 27px 27px,rgb(79,160,222) 28px 28px,rgb(79,161,222) 29px 29px,rgb(80,161,223) 30px 30px,rgb(80,161,223) 31px 31px,rgb(80,161,223) 32px 32px,rgb(80,162,223) 33px 33px,rgb(80,162,224) 34px 34px,rgb(80,162,224) 35px 35px,rgb(80,162,224) 36px 36px,rgb(80,162,225) 37px 37px,rgb(80,163,225) 38px 38px,rgb(80,163,225) 39px 39px,rgb(81,163,226) 40px 40px,rgb(81,163,226) 41px 41px,rgb(81,163,226) 42px 42px,rgb(81,164,226) 43px 43px,rgb(81,164,227) 44px 44px,rgb(81,164,227) 45px 45px,rgb(81,164,227) 46px 46px,rgb(81,164,228) 47px 47px,rgb(81,165,228) 48px 48px,rgb(81,165,228) 49px 49px,rgb(82,165,229) 50px 50px,rgb(82,165,229) 51px 51px,rgb(82,166,229) 52px 52px,rgb(82,166,229) 53px 53px,rgb(82,166,230) 54px 54px,rgb(82,166,230) 55px 55px,rgb(82,166,230) 56px 56px,rgb(82,167,231) 57px 57px,rgb(82,167,231) 58px 58px,rgb(82,167,231) 59px 59px,rgb(83,167,232) 60px 60px,rgb(83,167,232) 61px 61px,rgb(83,168,232) 62px 62px,rgb(83,168,232) 63px 63px,rgb(83,168,233) 64px 64px,rgb(83,168,233) 65px 65px,rgb(83,169,233) 66px 66px,rgb(83,169,234) 67px 67px,rgb(83,169,234) 68px 68px,rgb(83,169,234) 69px 69px,rgb(84,169,235) 70px 70px,rgb(84,170,235) 71px 71px,rgb(84,170,235) 72px 72px,rgb(84,170,235) 73px 73px,rgb(84,170,236) 74px 74px,rgb(84,170,236) 75px 75px,rgb(84,171,236) 76px 76px,rgb(84,171,237) 77px 77px,rgb(84,171,237) 78px 78px,rgb(84,171,237) 79px 79px,rgb(85,172,238) 80px 80px}
+
+.azm-long-shadow.azm-instagram {text-shadow:rgb(55,96,131) 1px 1px,rgb(55,96,131) 2px 2px,rgb(55,96,131) 3px 3px,rgb(55,96,131) 4px 4px,rgb(55,96,131) 5px 5px,rgb(55,96,132) 6px 6px,rgb(55,96,132) 7px 7px,rgb(55,97,132) 8px 8px,rgb(55,97,132) 9px 9px,rgb(55,97,132) 10px 10px,rgb(55,97,133) 11px 11px,rgb(55,97,133) 12px 12px,rgb(55,97,133) 13px 13px,rgb(56,97,133) 14px 14px,rgb(56,98,133) 15px 15px,rgb(56,98,134) 16px 16px,rgb(56,98,134) 17px 17px,rgb(56,98,134) 18px 18px,rgb(56,98,134) 19px 19px,rgb(56,98,134) 20px 20px,rgb(56,98,134) 21px 21px,rgb(56,99,135) 22px 22px,rgb(56,99,135) 23px 23px,rgb(56,99,135) 24px 24px,rgb(56,99,135) 25px 25px,rgb(56,99,135) 26px 26px,rgb(57,99,136) 27px 27px,rgb(57,99,136) 28px 28px,rgb(57,99,136) 29px 29px,rgb(57,100,136) 30px 30px,rgb(57,100,136) 31px 31px,rgb(57,100,137) 32px 32px,rgb(57,100,137) 33px 33px,rgb(57,100,137) 34px 34px,rgb(57,100,137) 35px 35px,rgb(57,100,137) 36px 36px,rgb(57,101,137) 37px 37px,rgb(57,101,138) 38px 38px,rgb(57,101,138) 39px 39px,rgb(58,101,138) 40px 40px,rgb(58,101,138) 41px 41px,rgb(58,101,138) 42px 42px,rgb(58,101,139) 43px 43px,rgb(58,102,139) 44px 44px,rgb(58,102,139) 45px 45px,rgb(58,102,139) 46px 46px,rgb(58,102,139) 47px 47px,rgb(58,102,140) 48px 48px,rgb(58,102,140) 49px 49px,rgb(58,102,140) 50px 50px,rgb(58,103,140) 51px 51px,rgb(58,103,140) 52px 52px,rgb(58,103,140) 53px 53px,rgb(59,103,141) 54px 54px,rgb(59,103,141) 55px 55px,rgb(59,103,141) 56px 56px,rgb(59,103,141) 57px 57px,rgb(59,103,141) 58px 58px,rgb(59,104,142) 59px 59px,rgb(59,104,142) 60px 60px,rgb(59,104,142) 61px 61px,rgb(59,104,142) 62px 62px,rgb(59,104,142) 63px 63px,rgb(59,104,143) 64px 64px,rgb(59,104,143) 65px 65px,rgb(59,105,143) 66px 66px,rgb(60,105,143) 67px 67px,rgb(60,105,143) 68px 68px,rgb(60,105,143) 69px 69px,rgb(60,105,144) 70px 70px,rgb(60,105,144) 71px 71px,rgb(60,105,144) 72px 72px,rgb(60,106,144) 73px 73px,rgb(60,106,144) 74px 74px,rgb(60,106,145) 75px 75px,rgb(60,106,145) 76px 76px,rgb(60,106,145) 77px 77px,rgb(60,106,145) 78px 78px,rgb(60,106,145) 79px 79px,rgb(61,107,146) 80px 80px}
+
+.azm-long-shadow.azm-linkedin {text-shadow:rgb(1,107,163) 1px 1px,rgb(1,107,163) 2px 2px,rgb(1,107,163) 3px 3px,rgb(1,107,163) 4px 4px,rgb(1,107,164) 5px 5px,rgb(1,107,164) 6px 6px,rgb(1,108,164) 7px 7px,rgb(1,108,164) 8px 8px,rgb(1,108,165) 9px 9px,rgb(1,108,165) 10px 10px,rgb(1,108,165) 11px 11px,rgb(1,108,165) 12px 12px,rgb(1,108,165) 13px 13px,rgb(1,109,166) 14px 14px,rgb(1,109,166) 15px 15px,rgb(1,109,166) 16px 16px,rgb(1,109,166) 17px 17px,rgb(1,109,167) 18px 18px,rgb(1,109,167) 19px 19px,rgb(1,110,167) 20px 20px,rgb(1,110,167) 21px 21px,rgb(1,110,167) 22px 22px,rgb(1,110,168) 23px 23px,rgb(1,110,168) 24px 24px,rgb(1,110,168) 25px 25px,rgb(1,110,168) 26px 26px,rgb(1,111,169) 27px 27px,rgb(1,111,169) 28px 28px,rgb(1,111,169) 29px 29px,rgb(1,111,169) 30px 30px,rgb(1,111,169) 31px 31px,rgb(1,111,170) 32px 32px,rgb(1,111,170) 33px 33px,rgb(1,112,170) 34px 34px,rgb(1,112,170) 35px 35px,rgb(1,112,171) 36px 36px,rgb(1,112,171) 37px 37px,rgb(1,112,171) 38px 38px,rgb(1,112,171) 39px 39px,rgb(1,113,172) 40px 40px,rgb(1,113,172) 41px 41px,rgb(1,113,172) 42px 42px,rgb(1,113,172) 43px 43px,rgb(1,113,172) 44px 44px,rgb(1,113,173) 45px 45px,rgb(1,113,173) 46px 46px,rgb(1,114,173) 47px 47px,rgb(1,114,173) 48px 48px,rgb(1,114,174) 49px 49px,rgb(1,114,174) 50px 50px,rgb(1,114,174) 51px 51px,rgb(1,114,174) 52px 52px,rgb(1,114,174) 53px 53px,rgb(1,115,175) 54px 54px,rgb(1,115,175) 55px 55px,rgb(1,115,175) 56px 56px,rgb(1,115,175) 57px 57px,rgb(1,115,176) 58px 58px,rgb(1,115,176) 59px 59px,rgb(1,116,176) 60px 60px,rgb(1,116,176) 61px 61px,rgb(1,116,176) 62px 62px,rgb(1,116,177) 63px 63px,rgb(1,116,177) 64px 64px,rgb(1,116,177) 65px 65px,rgb(1,116,177) 66px 66px,rgb(1,117,178) 67px 67px,rgb(1,117,178) 68px 68px,rgb(1,117,178) 69px 69px,rgb(1,117,178) 70px 70px,rgb(1,117,178) 71px 71px,rgb(1,117,179) 72px 72px,rgb(1,117,179) 73px 73px,rgb(1,118,179) 74px 74px,rgb(1,118,179) 75px 75px,rgb(1,118,180) 76px 76px,rgb(1,118,180) 77px 77px,rgb(1,118,180) 78px 78px,rgb(1,118,180) 79px 79px,rgb(1,119,181) 80px 80px}
+
+
+
+
+/*=======================================Footer=====================================*/
+.footer
+{
+	margin-top:0px;
+	height:auto;
+	opacity:0.8;
+	background-color:#4A3E36;
+	position:inherit;
+}
+.quick_links h3
+{
+	padding-left:80px;
+	padding-top:10px;
+	margin:0;
+	font-size:22px;
+	color:rgba(255,255,255,0.8);
+	text-shadow:0px 1px 1px #000;
+}
+.quick_links ul
+{
+	margin-top:10px;
+	margin-left:100px;
+	padding:0px;
+	display:inline-block;
+	list-style:none;
+}
+.quick_links ul li a
+{
+	padding:0;
+	color:rgba(255,255,255,0.5);
+	text-shadow:0px 1px 1px #000;
+	transition:all linear 0.2s;
+}
+.quick_links ul li a:hover
+{
+	color:rgba(255,255,255,0.9);
+	text-decoration:underline;
+}
+.quick_links ul .active>a
+{
+	color:rgba(255,255,255,0.9);
+	text-decoration:underline;	
+}
+.email_subscriber
+{
+	padding-left:0;
+	margin-top:0px;
+}
+
+.email_subscriber h3
+{
+	margin-top:10px;
+	font-size:22px;
+	color:rgba(255,255,255,0.8);
+	text-shadow:0px 1px 1px #000;
+}
+.email_subscriber input[type=email]
+{
+	width:230px;
+	background-color:rgba(255,255,255,1);
+	padding:5px;
+	border:1px solid rgba(0,102,102,0.5);
+	transition:all linear 0.3s;
+}
+.email_subscriber input[type=email]:focus
+{
+	background-color:rgba(255,255,255,0);
+	color:#fff;
+	border:1px solid rgba(255,255,255,1);
+	border-radius:2px;
+}
+.email_subscriber input[type=submit]
+{
+	margin-top:5px;
+	padding:3px;
+	width:100px;
+	border:1px solid rgba(255,255,255,1);
+	transition:all linear 0.4s;
+}
+.email_subscriber input[type=submit]:hover
+{
+	background-color:transparent;
+	border:1px solid #fff;
+	color:#fff;
+}
+.copyright_tag
+{
+	text-align:center;
+}
+.copyright_tag h4
+{
+	font-size:15px;
+	color:rgba(255,255,255,1);
+}
+
+
+
+
+
+/*============================================Media=======================*/
+
+@media screen and (min-width:600px) and (max-width:1370px)
+{
+	.top_menu
+	{
+		margin-right:-450px;
+	}
+}

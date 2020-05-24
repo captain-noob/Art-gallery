@@ -1,0 +1,155 @@
+/*--------------Admin CSS------------------*/
+*
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.top-menu{
+	
+	border-radius:0px;
+}
+.top-menu .navbar-brand
+{
+	color:#fff;
+}
+.top-menu .navbar-brand:hover,.top-menu .navbar-brand:focus
+{
+	outline:none;
+}
+.admin-login
+{
+	width:50%;
+	margin:100px auto;
+}
+.admin-login .panel-heading h3
+{
+	padding:0px;
+	margin:0px;
+	text-align:center;	
+}
+.admin-login .panel-body .error_msg
+{
+	margin:0px 20px;
+}
+.admin-login .form-group
+{
+	margin:10px 20px;
+	
+}
+
+
+.logout-li span{
+		
+	margin-left:20px;
+	padding:0px;
+}
+.logout-li:hover
+{
+	background-color:rgb(245, 245, 245);
+}
+.logout
+{
+	border:none;
+	background-color:transparent;
+}
+.logout:hover
+{
+	background-color:rgb(245, 245, 245);
+	
+}
+.container-fluid .header
+{
+	background-color:rgba(255,255,255,1);
+	padding:0px 0px 10px 20px;
+}
+.container-fluid .header h3
+{
+	color:rgba(19, 64, 114,1);
+	text-shadow:1px 1px 1px #999;
+}
+.user-nav 
+{
+	margin:20px 0px 0px 60px;
+}
+.user-icon .dropdown-toggle:hover,.user-icon .dropdown-toggle:focus
+{	
+	background-color:transparent;
+	color:rgba(42, 82, 127,1);
+}
+
+.user-icon > a
+{
+	text-decoration:none;
+	text-shadow:0px 0px 1px rgba(42, 82, 127,0.4);
+	color:rgba(42, 82, 127,0.7);
+}
+.left-nav
+{
+	background-color:rgba(255,255,255,1);
+	height:500px;
+	
+}
+.left-nav .left-menu
+{	
+	width:100%;
+	
+}
+.left-nav .left-menu a
+{
+	padding:10px;
+	border-radius:5px;
+}
+.active
+{
+	color:#fff;
+	background-color:rgba(19, 64, 114,1);
+}
+.left-nav .left-menu a:hover,.left-nav .left-menu a:focus
+{
+	color:#fff;
+	background-color:rgba(19, 64, 114,1);
+}
+
+.container-fluid .center-container
+{
+	
+	background-color:rgba(19, 64, 114,1);
+}
+
+
+
+.pages #home,.pages #dashboard,.pages #about
+{
+	display:none;
+	
+}
+
+
+
+
+
+/*       Dashboard      */
+
+.slider-content h4 span
+{
+	float:right;
+}
+
+.center-container .dashboard
+{
+	margin-top:40px;
+	
+}
+.center-container .dashboard .panel-heading
+{
+	background-color:transparent;
+	padding:0px 10px;
+	margin:0px 10px;
+	border-bottom:1px solid rgba(0,0,0,0.4);
+}
+
+.dashboard .social-links .form-inline
+{
+	margin-top:10px;
+}
